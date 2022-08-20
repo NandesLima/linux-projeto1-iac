@@ -79,14 +79,14 @@ echo "Diretório /ven recebe grupo GRP_VEN"
 chown root:GRP_SEC /sec
 echo "Diretório /sec recebe grupo GRP_SEC"
 
-echo "Step 5: Alterando permições"
+echo "Step 5: Alterando permissões"
 chmod 777 /publico
-echo "Permições de /publico alteradas"
+echo "Permissões de /publico alteradas"
 chmod 770 /adm
-echo "Permições de /adm alteradas"
+echo "Permissões de /adm alteradas"
 chmod 770 /ven
-echo "Permições de /ven alteradas"
+echo "Permissões de /ven alteradas"
 chmod 770 /sec
-echo "Permições de /sec alteradas"
+echo "Permissões de /sec alteradas"
 
 echo "IaC Finalizado..."
